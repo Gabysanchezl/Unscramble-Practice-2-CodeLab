@@ -167,6 +167,7 @@ fun GameLayout(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier.padding(mediumPadding)
         ) {
+
             Text(
                 modifier = Modifier
                     .clip(shapes.medium)
@@ -174,8 +175,7 @@ fun GameLayout(
                     .padding(horizontal = 10.dp, vertical = 4.dp)
                     .align(alignment = Alignment.End),
                 text = stringResource(R.string.word_count, wordCount),
-                style = typography.titleMedium,
-                color = colorScheme.onPrimary
+                style = typography.titleMedium,                  color = colorScheme.onPrimary
             )
             Text(
                 text = currentScrambledWord,

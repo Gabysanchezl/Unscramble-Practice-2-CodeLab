@@ -58,6 +58,8 @@ class GameViewModel : ViewModel() {
             GameUiState(currentScrambledWord = pickRandomWordAndShuffle()) // Actualiza el estado con la nueva palabra aleatoria
     }
 
+    //
+
     init {
         resetGame()
     }
